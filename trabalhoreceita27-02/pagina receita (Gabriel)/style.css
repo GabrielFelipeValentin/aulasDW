@@ -1,0 +1,25 @@
+/* Estilizando o fundo */
+body {
+    background-color: #da7421;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o título */
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Estilizando o parágrafo */
+p {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilizando a cor do texto */
+
+body {
+    color:rgb(2, 2, 2)
+}
+  
