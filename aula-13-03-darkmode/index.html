@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> DarkMode</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/color.css">
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="logo">Logo legal</div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        <div onclick= "toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+        </nav>
+        <!--Sessão de cards-->
+    <section class="cards">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis deserunt sequi aliquid, placeat laudantium!
+                Tempore at autem quas modi, illum obcaecati, sunt id culpa vero nostrum ipsa error assumenda!
+            </p>
+        </div> <!--Fim Card 1-->
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis deserunt sequi aliquid, placeat laudantium!
+                Tempore at autem quas modi, illum obcaecati, sunt id culpa vero nostrum ipsa error assumenda!
+            </p>
+        </div> <!--Fim Card 2-->
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis deserunt sequi aliquid, placeat laudantium!
+                Tempore at autem quas modi, illum obcaecati, sunt id culpa vero nostrum ipsa error assumenda!
+            </p>
+        </div> <!--Fim Card 3-->
+
+    </section>
+    <footer>
+        <p>Gabriel Felipe Valentin - 2025</p>
+    </footer>    
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleDarkMode () {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    
+    </body>
+
+
+</html>
