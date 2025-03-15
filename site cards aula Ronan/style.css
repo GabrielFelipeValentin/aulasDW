@@ -1,0 +1,135 @@
+*:root {
+
+    --cor-fundo:#fff;
+    --cor-texto:#000;
+}
+
+.dark-mode:root {
+
+    --cor-fundo:#000;
+    --cor-texto:#fff;
+}
+
+ 
+
+
+* {
+    margin:0;
+    padding:0; box-sizing: border-box;
+}
+
+body {
+
+   height:100vh;
+   width:100vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between; 
+   gap: 15px ;
+   background-color: var(--cor-fundo);
+   padding: 15px; 
+   overflow:hidden ;
+  
+}
+
+button {
+    
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color:#fff;
+    background-color:#05418d;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+}
+
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px ;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    height: auto ;
+    border-radius: 12px;
+    box-shadow: 0px 0px 40px #05418d;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+.card h1{
+
+    font-size: 2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card h2{
+    font-size: 1.2rem;
+    color: #000;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.card a {
+
+    height: 30px;
+    width: 80%;
+    border: none;
+    padding: 4px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #05418d;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card .img {
+
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    
+}   
+
+.card a:hover {
+    scale: 1.1;
+    transition: 0.3s;
+
+
+}
+
+footer {
+    color:var(--cor-texto);
+}

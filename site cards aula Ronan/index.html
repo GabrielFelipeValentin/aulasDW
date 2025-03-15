@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site cards</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <button id="dark-mode" onclick="toggleDarkMode()">Tema</button>
+
+    <h1 style="color:var(--cor-texto); letter-spacing: 15px;">- O LENDÁRIO TRIO MSN -</h1>
+    
+    <section id="cards">
+        <div class="card">
+            <div class="img" style="background-image: url('images/neymar.jpg');"></div>
+            <h1>- Neymar -</h1>
+            <h2>Eterno<br>menino da vila 🐟</h2>
+            <a href="https://pt.wikipedia.org/wiki/Neymar">Clique para saber mais</a>
+        </div>
+        <div class="card">
+            <div class="img" style="background-image: url('images/Suarez.jpg');"></div>
+            <h1>- Suárez -</h1>
+            <h2>O<br>"pistoleiro" 🔫</h2>
+            <a href="https://pt.wikipedia.org/wiki/Luis_Alberto_Su%C3%A1rez">Clique para saber mais</a>
+        </div>
+        <div class="card">
+            <div class="img" style="background-image: url('images/Messi.jpg');"></div>
+            <h1>- Messi -</h1>
+            <h2>E.T. 👽<br>Simplesmente de outro mundo!</h2>
+            <a href="https://pt.wikipedia.org/wiki/Lionel_Messi">Clique para saber mais</a>
+        </div>
+
+
+    </section>
+
+    <footer>Gabriel Felipe Valentin - 2025</footer>
+
+    <script>
+
+        function toggleDarkMode () {
+                    document.querySelector("html").classList.toggle('dark-mode');
+                }
+    
+    </script>
+    
+</body>
+</html>
